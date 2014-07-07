@@ -4,18 +4,17 @@ public class ArrayMarkLoisRazon {
     public static void main(String[] args) {
         int numbers = /*inserting new int[]*/new int[]{20, 25, 13, 82, 45, 73, 23, 55, 95, 33}
         LVCCArrayLoisRazon arr = new LVCCArrayLoisRazon(numbers);
-
-        /*assigning element of numbers into largest and smallest*/
+        
+        /*assigning element of numbers into max and min value*/
         int min = numbers[0];
         int max = numbers[0];
  
         System.out.println("Smallest Number: " /*calling the determineMin*/ + this.determineMin);
-
         System.out.println("Largest Number: " /*calling the determineMax*/ + this.determineMax);
     }
 }
 
-------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------
  LVCCArrayLoisRazon.java
 
 public class LVCCArrayLoisRazon {
